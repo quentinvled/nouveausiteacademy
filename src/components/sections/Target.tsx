@@ -15,7 +15,7 @@ const targets = [
       </svg>
     ),
     title: "Personnes en reconversion",
-    text: "Vous souhaitez donner un nouveau sens à votre vie professionnelle en vous orientant vers l'accompagnement humain.",
+    text: "Vous souhaitez donner un nouveau sens à votre vie professionnelle en vous orientant vers l’accompagnement humain.",
   },
   {
     icon: (
@@ -44,10 +44,10 @@ export function Target() {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full text-sm font-semibold text-[#1E6BF1] bg-[#EBF2FF] mb-4">
-            À qui s'adresse So' Academy
+            À qui s’adresse So’ Academy
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            À qui s'adressent nos formations&nbsp;?
+            À qui s’adressent nos formations&nbsp;?
           </h2>
           <p className="text-lg text-gray-500 max-w-xl mx-auto">
             Nos programmes sont conçus pour toute personne désireuse de

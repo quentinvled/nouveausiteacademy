@@ -7,7 +7,7 @@ const advantages = [
   {
     icon: "✅",
     title: "Garantie de réussite",
-    text: "Un suivi personnalisé et des ressources illimitées jusqu'à votre certification.",
+    text: "Un suivi personnalisé et des ressources illimitées jusqu’à votre certification.",
   },
   {
     icon: "♾️",
@@ -48,35 +48,35 @@ export function WhyUs() {
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
               Pourquoi choisir{" "}
-              <span className="text-[#1E6BF1]">So' Academy&nbsp;?</span>
+              <span className="text-[#1E6BF1]">So’ Academy&nbsp;?</span>
             </h2>
             <p className="text-lg text-gray-500 mb-8 leading-relaxed">
-              Une école fondée sur l'excellence, l'humain et la pratique.
+              Une école fondée sur l’excellence, l’humain et la pratique.
               Chaque détail est pensé pour vous offrir la meilleure expérience
-              d'apprentissage.
+              d’apprentissage.
+              {/* Advantages list */}
+              <div className="space-y-4">
+                {advantages.map((adv) => (
+                  <div
+                    key={adv.title}
+                    className="flex items-start gap-4 group"
+                  >
+                    <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#EBF2FF] flex items-center justify-center text-lg group-hover:bg-[#1E6BF1] group-hover:scale-110 transition-all duration-200">
+                      {adv.icon}
+                    </div>
+                    <div>
+                      <div className="font-semibold text-gray-900 text-sm">
+                        {adv.title}
+                      </div>
+                      <div className="text-gray-500 text-sm leading-relaxed mt-0.5">
+                        {adv.text}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </p>
-
-            {/* Advantages list */}
-            <div className="space-y-4">
-              {advantages.map((adv) => (
-                <div
-                  key={adv.title}
-                  className="flex items-start gap-4 group"
-                >
-                  <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-[#EBF2FF] flex items-center justify-center text-lg group-hover:bg-[#1E6BF1] group-hover:scale-110 transition-all duration-200">
-                    {adv.icon}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900 text-sm">
-                      {adv.title}
-                    </div>
-                    <div className="text-gray-500 text-sm leading-relaxed mt-0.5">
-                      {adv.text}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            
           </div>
 
           {/* Right — visual card */}
