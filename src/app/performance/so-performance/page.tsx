@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 
@@ -410,7 +409,7 @@ export default function SoPerformance() {
               Ce que vous allez développer
             </h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {benefits.map((benefit, i) => (
+              {benefits.map((benefit) => (
                 <div
                   key={benefit}
                   className="group flex items-center gap-3 bg-gray-50 hover:bg-[#EBF2FF] border border-gray-100 rounded-2xl px-5 py-4 transition-all duration-200 hover:border-[#1E6BF1]/20 hover:shadow-sm text-left"

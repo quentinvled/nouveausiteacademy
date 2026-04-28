@@ -141,7 +141,7 @@ export default function SoTherapies() {
 
             {/* Body */}
             <p className="text-lg text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-              Un espace d'écoute bienveillant, confidentiel et sans jugement, pour traverser ce que vous vivez et retrouver un chemin vers vous-même.
+              Un espace d&apos;écoute bienveillant, confidentiel et sans jugement, pour traverser ce que vous vivez et retrouver un chemin vers vous-même.
             </p>
 
             {/* CTA */}
@@ -187,7 +187,7 @@ export default function SoTherapies() {
             </h2>
             <div className="space-y-5 text-lg text-gray-500 leading-relaxed max-w-3xl mx-auto">
               <p>
-                La thérapie n'est pas une faiblesse. C'est un choix lucide : prendre soin de soi avec le même sérieux qu'on accorde à sa santé physique.
+                La thérapie n&apos;est pas une faiblesse. C&apos;est un choix lucide : prendre soin de soi avec le même sérieux qu&apos;on accorde à sa santé physique.
               </p>
               <p>
                 Chez So’ Thérapies, chaque séance est un espace où vous êtes pleinement accueilli, sans jugement, à votre rythme.

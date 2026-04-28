@@ -51,9 +51,9 @@ export function WhyUs() {
               <span className="text-[#1E6BF1]">So&apos; Academy unique</span>
             </h2>
             <p className="text-lg text-gray-500 mb-8 leading-relaxed">
-              Nous n’avons pas construit une école de plus. Nous avons conçu un
+              Nous n&apos;avons pas construit une école de plus. Nous avons conçu un
               écosystème où chaque détail : le contenu, le suivi, la communauté.
-              Tout est pensé pour faire de vous un praticien d'exception.
+              Tout est pensé pour faire de vous un praticien d&apos;exception.
             </p>
             {/* Advantages list */}
             <div className="space-y-4">

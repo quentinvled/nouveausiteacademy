@@ -73,8 +73,8 @@ export function Testimonial() {
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <blockquote className="text-xl md:text-2xl font-light text-white leading-relaxed italic">
-                &ldquo;Je pensais suivre une simple formation. J’ai vécu une transformation.
-                So' Academy ne vous donne pas juste des outils :{" "}
+                &ldquo;Je pensais suivre une simple formation. J&apos;ai vécu une transformation.
+                So&apos; Academy ne vous donne pas juste des outils :{" "}
                 <span className="font-semibold not-italic text-blue-200">
                   elle vous révèle à vous-même.
                 </span>

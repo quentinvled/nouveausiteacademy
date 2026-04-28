@@ -56,7 +56,7 @@ export function Footer() {
 
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/30 text-xs">
-            © {new Date().getFullYear()} So' Academy · Sophian Jouhari. Tous droits réservés.
+            © {new Date().getFullYear()} So&apos; Academy · Sophian Jouhari. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4">
             {/* Instagram */}
