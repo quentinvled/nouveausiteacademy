@@ -28,7 +28,7 @@ export function Footer() {
               Nos activités
             </div>
             <ul className="space-y-2">
-              {["So’ Academy", "So’ Performance", "So’ Thérapie"].map((l) => (
+              {["So’ Academy", "So’ Performance", "So’Therapies"].map((l) => (
                 <li key={l}>
                   <a href="#" className="text-white/60 hover:text-white text-sm transition-colors">
                     {l}
@@ -56,7 +56,7 @@ export function Footer() {
 
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/30 text-xs">
-            © {new Date().getFullYear()} So’ Academy — Sophian Jouhari. Tous droits réservés.
+            © {new Date().getFullYear()} So' Academy · Sophian Jouhari. Tous droits réservés.
           </p>
           <div className="flex items-center gap-4">
             {/* Instagram */}

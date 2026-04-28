@@ -60,7 +60,7 @@ export function Hero() {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#60a5fa]" />
           </span>
           <span className="text-white/75 text-sm font-medium tracking-wide">
-            Sophian Jouhari — Psychologue & Formateur Expert
+            Sophian Jouhari · Psychologue & Expert en Développement Humain
           </span>
         </div>
 
@@ -89,8 +89,9 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed font-light">
-          La mission de Sophian Jouhari : vous guider dans votre développement
-          personnel et mental, vers une vie plus épanouie et performante.
+          Sophian Jouhari réunit sous un même toit la formation professionnelle,
+          la préparation mentale et l&apos;accompagnement thérapeutique, pour vous aider
+          à vous dépasser, à guérir et à construire une vie pleinement alignée.
         </p>
 
         {/* Stats row */}
@@ -131,7 +132,7 @@ export function Hero() {
                 boxShadow: "0 8px 32px rgba(30,107,241,0.5), inset 0 1px 0 rgba(255,255,255,0.15)",
               }}
             >
-              Découvrir nos activités
+              Explorer nos activités
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

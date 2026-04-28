@@ -4,7 +4,7 @@ const programs = [
   {
     badge: "Psychologie",
     title: "Psychologie Positive",
-    text: "Apprenez les fondements de la psychologie positive pour aider vos clients à cultiver le bonheur, la résilience et le sens dans leur vie quotidienne.",
+    text: "Maîtrisez les fondements scientifiques du bonheur et de la résilience. Apprenez à cultiver le bien-être durable chez vos clients comme dans votre propre vie.",
     duration: "6 mois",
     level: "Tous niveaux",
     color: "#1E6BF1",
@@ -18,7 +18,7 @@ const programs = [
   {
     badge: "Hypnose",
     title: "Praticien en Hypnose",
-    text: "Maîtrisez les techniques d'hypnose ericksonienne pour accompagner vos clients dans des transformations profondes et durables.",
+    text: "Devenez expert en hypnose ericksonienne et accompagnez vos clients vers des changements profonds, durables et respectueux de leur êctre intérieur.",
     duration: "8 mois",
     level: "Intermédiaire",
     color: "#0369a1",
@@ -33,7 +33,7 @@ const programs = [
   {
     badge: "Bien-être",
     title: "Gestion du Stress & Burn-out",
-    text: "Formez-vous à l'accompagnement des personnes en situation de stress intense ou d'épuisement professionnel avec des outils concrets et validés.",
+    text: "Formez-vous à l’accompagnement des personnes en épuisement ou en surcharge émotionnelle, avec des protocoles concrets, éprouvés et immédiatement applicables.",
     duration: "4 mois",
     level: "Tous niveaux",
     color: "#0d47a1",
@@ -56,11 +56,11 @@ export function Programs() {
             Nos programmes
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Programmes phares
+            Nos programmes phares
           </h2>
           <p className="text-lg text-gray-500 max-w-xl mx-auto">
-            Des formations conçues pour vous donner des outils concrets,
-            immédiatement applicables sur le terrain.
+            Chaque formation est conçue pour vous donner bien plus que des connaissances :
+            une posture, une pratique et une identité professionnelle.
           </p>
         </div>
 

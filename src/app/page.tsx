@@ -71,7 +71,7 @@ export default function HomePage() {
               Rejoignez-nous
             </span>
             <h2 className="text-4xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
-              Prêt à transformer{" "}
+              Il est temps de franchir{" "}
               <span
                 style={{
                   background: "linear-gradient(90deg, #1E6BF1, #60a5fa)",
@@ -79,12 +79,12 @@ export default function HomePage() {
                   WebkitTextFillColor: "transparent",
                 }}
               >
-                votre vie&nbsp;?
+                le pas.
               </span>
             </h2>
             <p className="text-lg text-gray-500 mb-12 max-w-xl mx-auto leading-relaxed">
               Rejoignez So&apos; Academy et faites partie de la prochaine promotion
-              de praticiens d&apos;excellence.
+              de praticiens qui changent des vies, à commencer par la leur.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href="#piliers">

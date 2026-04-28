@@ -9,24 +9,24 @@ interface FAQItem {
 
 const items: FAQItem[] = [
   {
-    question: "Peut-on exercer à l'international ?",
+    question: "Peut-on exercer à l’international avec cette certification ?",
     answer:
-      "Oui, nos certifications sont reconnues à l'international. De nombreux diplômés exercent en Europe, en Amérique du Nord et en Afrique francophone. Nous vous accompagnons également dans les démarches administratives spécifiques à chaque pays.",
+      "Oui. Nos certifications sont reconnues en Europe, en Amérique du Nord et en Afrique francophone. De nombreux diplômés exercent à l’étranger, et nous les accompagnons dans les démarches spécifiques à chaque pays.",
   },
   {
-    question: "Y a-t-il un accompagnement après formation ?",
+    question: "Y a-t-il un accompagnement après la formation ?",
     answer:
-      "Absolument. So' Academy propose un suivi post-formation avec accès à une communauté privée, des sessions de supervision mensuelles et un référencement professionnel dans notre annuaire de praticiens certifiés.",
+      "Absolument. Après votre certification, vous accédez à une communauté privée, des sessions de supervision mensuelles et un référencement dans notre annuaire professionnel. Vous n’êtes jamais seul une fois diplômé.",
   },
   {
-    question: "Les cours sont-ils en ligne ou en présentiel ?",
+    question: "Les cours sont-ils en ligne ou en présentiel ?",
     answer:
-      "Nos formations sont disponibles à 100% en ligne, en format asynchrone avec des sessions live régulières. Des séminaires en présentiel sont organisés plusieurs fois par an pour les apprenants qui le souhaitent.",
+      "Nos formations sont entièrement accessibles en ligne, avec des sessions live régulières. Des séminaires en présentiel sont organisés plusieurs fois par an pour ceux qui souhaitent approfondir leur pratique en groupe.",
   },
   {
-    question: "Peut-on revoir les modules ?",
+    question: "Puis-je revoir les modules après ma certification ?",
     answer:
-      "Oui, vous bénéficiez d'un accès à vie à l'ensemble des modules de votre formation. Toutes les vidéos, ressources et exercices restent accessibles indéfiniment depuis votre espace personnel.",
+      "Oui, vous bénéficiez d'un accès à vie à l'ensemble de votre formation. Vidéos, ressources et exercices restent disponibles indéfiniment, tout comme les mises à jour de contenus.",
   },
 ];
 

@@ -8,7 +8,7 @@ export function VideoSection() {
             Présentation
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            Découvrez So&apos; Academy{" "}
+            So&apos; Academy en{" "}
             <span
               style={{
                 background: "linear-gradient(90deg, #1E6BF1, #60a5fa)",
@@ -16,11 +16,11 @@ export function VideoSection() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              en vidéo
+              quelques minutes
             </span>
           </h2>
           <p className="text-lg text-gray-500">
-            Une présentation par Sophian Jouhari
+            Sophian Jouhari vous présente sa vision, sa méthode et ce qui rend cet écosystème unique.
           </p>
         </div>
 

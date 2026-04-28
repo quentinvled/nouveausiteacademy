@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const pillars = [
   {
     icon: (
@@ -12,6 +14,7 @@ const pillars = [
     title: "So' Academy",
     text: "Formations d'excellence en psychologie et développement personnel. Devenez praticien certifié et accompagnez vos clients vers la transformation.",
     cta: "Découvrir les formations",
+    href: "/formations/so-academy",
     gradient: "linear-gradient(135deg, #1E6BF1 0%, #3b82f6 100%)",
     shadow: "rgba(30,107,241,0.35)",
   },
@@ -26,6 +29,7 @@ const pillars = [
     title: "So' Performance",
     text: "Accompagnement mental pour sportifs visant la haute performance. Libérez votre potentiel psychologique pour atteindre vos sommets.",
     cta: "Accéder à la préparation",
+    href: undefined,
     gradient: "linear-gradient(135deg, #0d47a1 0%, #1565c0 100%)",
     shadow: "rgba(13,71,161,0.35)",
   },
@@ -37,10 +41,9 @@ const pillars = [
     ),
     number: "03",
     tag: "Thérapie",
-    title: "So' Thérapie",
+    title: "So’Therapies",
     text: "Soutien psychologique et accompagnement vers le bien-être. Un espace bienveillant pour traverser vos épreuves et retrouver l'équilibre.",
-    cta: "Découvrir l'accompagnement",
-    gradient: "linear-gradient(135deg, #0369a1 0%, #0284c7 100%)",
+    cta: "Découvrir l'accompagnement",    href: undefined,    gradient: "linear-gradient(135deg, #0369a1 0%, #0284c7 100%)",
     shadow: "rgba(3,105,161,0.35)",
   },
 ];
@@ -63,12 +66,12 @@ export function Pillars() {
                 WebkitTextFillColor: "transparent",
               }}
             >
-              une même mission
+              une vision commune
             </span>
           </h2>
           <p className="text-lg text-gray-500 max-w-xl mx-auto">
-            Former, accompagner et soigner — trois voies complémentaires portées
-            par Sophian Jouhari.
+            Former des praticiens d&apos;exception, élever des sportifs vers leurs sommets,
+            accompagner des êmes vers la guérison. Trois chemins, une seule ambition.
           </p>
         </div>
 
@@ -127,12 +130,23 @@ export function Pillars() {
                 </p>
 
                 {/* CTA */}
-                <button
-                  className="w-full py-3.5 px-6 rounded-2xl font-semibold text-sm text-white transition-all duration-200 active:scale-[0.98] cursor-pointer hover:opacity-90 hover:-translate-y-0.5"
-                  style={{ background: p.gradient }}
-                >
-                  {p.cta} →
-                </button>
+                {p.href ? (
+                  <Link href={p.href}>
+                    <button
+                      className="w-full py-3.5 px-6 rounded-2xl font-semibold text-sm text-white transition-all duration-200 active:scale-[0.98] cursor-pointer hover:opacity-90 hover:-translate-y-0.5"
+                      style={{ background: p.gradient }}
+                    >
+                      {p.cta} →
+                    </button>
+                  </Link>
+                ) : (
+                  <button
+                    className="w-full py-3.5 px-6 rounded-2xl font-semibold text-sm text-white transition-all duration-200 active:scale-[0.98] cursor-pointer hover:opacity-90 hover:-translate-y-0.5"
+                    style={{ background: p.gradient }}
+                  >
+                    {p.cta} →
+                  </button>
+                )}
               </div>
             </div>
           ))}

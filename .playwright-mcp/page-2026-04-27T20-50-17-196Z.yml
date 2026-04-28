@@ -1,0 +1,260 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "So' Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "So' Academy" [ref=e5]
+      - navigation [ref=e6]:
+        - link "Formations" [ref=e8] [cursor=pointer]:
+          - /url: /#piliers
+          - text: Formations
+          - img [ref=e9]
+        - link "Programmes" [ref=e11] [cursor=pointer]:
+          - /url: /#programmes
+        - link "Philosophie" [ref=e12] [cursor=pointer]:
+          - /url: /#philosophie
+        - link "FAQ" [ref=e13] [cursor=pointer]:
+          - /url: /#faq
+      - link "Commencer" [ref=e14] [cursor=pointer]:
+        - /url: /#piliers
+        - text: Commencer
+        - img [ref=e15]
+  - main [ref=e17]:
+    - generic [ref=e24]:
+      - generic [ref=e29]: Formation d'Excellence
+      - heading "So' Academy" [level=1] [ref=e30]
+      - paragraph [ref=e35]: Des formations d'excellence pour enrichir vos compétences et transformer votre carrière.
+      - paragraph [ref=e36]: Développez une compréhension profonde de l'humain, acquérez des compétences concrètes et construisez une activité alignée avec vos valeurs.
+      - link "Découvrir les formations" [ref=e37] [cursor=pointer]:
+        - /url: "#programmes"
+        - button "Découvrir les formations" [ref=e38]:
+          - text: Découvrir les formations
+          - img [ref=e39]
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: Notre approche
+        - heading "Une formation au-delà de la théorie" [level=2] [ref=e46]
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: À So' Academy, nous croyons qu'une formation ne doit pas se limiter à l'acquisition de connaissances. Notre approche est conçue pour vous permettre de comprendre, d'appliquer et d'incarner pleinement les outils que vous apprenez.
+          - paragraph [ref=e49]: Chaque programme allie théorie, pratique et développement personnel afin de vous préparer à accompagner les autres avec justesse, éthique et efficacité.
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - img [ref=e53]
+          - heading "Théorie" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Bases solides et fondements conceptuels
+        - generic [ref=e57]:
+          - img [ref=e59]
+          - heading "Pratique" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Mises en situation et cas réels
+        - generic [ref=e63]:
+          - img [ref=e65]
+          - heading "Croissance" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Développement personnel intégré
+        - generic [ref=e69]:
+          - img [ref=e71]
+          - heading "Éthique" [level=3] [ref=e73]
+          - paragraph [ref=e74]: Posture professionnelle exemplaire
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: Catalogue
+        - heading "Nos programmes phares" [level=2] [ref=e79]
+        - paragraph [ref=e80]: Un catalogue de formations conçu par des experts pour vous donner les outils nécessaires à votre réussite professionnelle et personnelle.
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: "01"
+            - img [ref=e87]
+          - generic [ref=e89]:
+            - heading "Psychologie Positive" [level=3] [ref=e90]
+            - paragraph [ref=e91]: Apprenez les fondements de la psychologie positive et comment les appliquer dans votre vie et votre travail pour cultiver le bien-être.
+            - button "En savoir plus →" [ref=e92] [cursor=pointer]
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e96]: "02"
+            - img [ref=e98]
+          - generic [ref=e101]:
+            - heading "Praticien en Hypnose" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Devenez praticien en hypnose Ericksonienne certifié et accompagnez les autres vers un changement durable et profond.
+            - button "En savoir plus →" [ref=e104] [cursor=pointer]
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e108]: "03"
+            - img [ref=e110]
+          - generic [ref=e112]:
+            - heading "Gestion du Stress & Burn-out" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Maîtrisez des techniques efficaces pour gérer le stress, prévenir le burn-out et améliorer votre résilience au quotidien.
+            - button "En savoir plus →" [ref=e115] [cursor=pointer]
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]: Public
+        - heading "À qui s'adressent nos formations ?" [level=2] [ref=e120]
+        - paragraph [ref=e121]: Nos programmes sont conçus pour un public varié, uni par le désir d'apprendre, de progresser et de se transformer.
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - img [ref=e125]
+          - paragraph [ref=e127]: Professionnels souhaitant se spécialiser
+        - generic [ref=e128]:
+          - img [ref=e130]
+          - paragraph [ref=e132]: Personnes en reconversion professionnelle
+        - generic [ref=e133]:
+          - img [ref=e135]
+          - paragraph [ref=e137]: Managers et leaders souhaitant développer leurs compétences humaines
+        - generic [ref=e138]:
+          - img [ref=e140]
+          - paragraph [ref=e142]: Toute personne passionnée par la psychologie et le développement personnel
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]: Méthode
+        - heading "Une méthode structurée pour votre réussite" [level=2] [ref=e148]
+        - paragraph [ref=e149]: Nos formations reposent sur une approche complète qui vous permet de progresser à votre rythme tout en développant des compétences concrètes.
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]: "01"
+          - paragraph [ref=e153]: Un enseignement par des experts du domaine
+        - generic [ref=e154]:
+          - generic [ref=e155]: "02"
+          - paragraph [ref=e156]: Une approche centrée sur la pratique et les cas réels
+        - generic [ref=e157]:
+          - generic [ref=e158]: "03"
+          - paragraph [ref=e159]: Un accompagnement tout au long de votre formation
+        - generic [ref=e160]:
+          - generic [ref=e161]: "04"
+          - paragraph [ref=e162]: Une montée en compétences progressive et structurée
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]: Avantages
+        - heading "Pourquoi choisir So' Academy ?" [level=2] [ref=e167]
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - img [ref=e171]
+          - generic [ref=e173]:
+            - heading "Accès à vie" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Accès permanent à l'intégralité de votre formation
+        - generic [ref=e176]:
+          - img [ref=e178]
+          - generic [ref=e180]:
+            - heading "Supervision" [level=3] [ref=e181]
+            - paragraph [ref=e182]: Suivi pendant et après votre apprentissage
+        - generic [ref=e183]:
+          - img [ref=e185]
+          - generic [ref=e187]:
+            - heading "Observation de séances" [level=3] [ref=e188]
+            - paragraph [ref=e189]: Possibilité d'observer des séances réelles
+        - generic [ref=e190]:
+          - img [ref=e192]
+          - generic [ref=e194]:
+            - heading "Lancement d'activité" [level=3] [ref=e195]
+            - paragraph [ref=e196]: Accompagnement au démarrage de votre pratique
+        - generic [ref=e197]:
+          - img [ref=e199]
+          - generic [ref=e201]:
+            - heading "Certification internationale" [level=3] [ref=e202]
+            - paragraph [ref=e203]: Diplôme reconnu à l'échelle internationale
+        - generic [ref=e204]:
+          - img [ref=e206]
+          - generic [ref=e208]:
+            - heading "Réseau professionnel" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Intégration dans une communauté d'experts
+    - generic [ref=e212]:
+      - generic [ref=e213]: Notre ADN
+      - heading "Notre philosophie pédagogique" [level=2] [ref=e214]
+      - generic [ref=e215]:
+        - paragraph [ref=e216]: Nous formons des praticiens compétents, éthiques et prêts à faire une différence.
+        - paragraph [ref=e217]: Au-delà des connaissances, nous mettons l'accent sur le savoir-être, l'écoute et la capacité à accompagner chaque individu avec justesse.
+        - paragraph [ref=e218]: Notre objectif est de vous permettre de devenir un professionnel aligné, confiant et efficace dans votre pratique.
+    - generic [ref=e221]:
+      - generic [ref=e223]: "\""
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]: Z
+          - generic [ref=e228]: Zaynab
+          - generic [ref=e229]: Étudiante en psychologie
+          - generic [ref=e230]:
+            - img [ref=e231]
+            - img [ref=e233]
+            - img [ref=e235]
+            - img [ref=e237]
+            - img [ref=e239]
+        - generic [ref=e242]:
+          - img [ref=e243]
+          - blockquote [ref=e245]: “Une formation incroyablement enrichissante qui a dépassé toutes mes attentes. La pédagogie et l'approche sont remarquables. On ne nous forme pas simplement à un métier, on nous amène vers l'excellence.”
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - generic [ref=e249]: FAQ
+        - heading "Questions fréquentes" [level=2] [ref=e250]
+        - paragraph [ref=e251]: Tout ce que vous devez savoir avant de commencer.
+      - generic [ref=e252]:
+        - generic [ref=e253]:
+          - button "Puis-je exercer à l'international avec cette certification ?" [ref=e254] [cursor=pointer]:
+            - generic [ref=e255]: Puis-je exercer à l'international avec cette certification ?
+            - img [ref=e257]
+          - paragraph [ref=e259]: Notre centre est accrédité officiellement, ce qui permet une reconnaissance de votre certificat à l'international.
+        - generic [ref=e260]:
+          - button "Y a-t-il un accompagnement après la formation ?" [ref=e261] [cursor=pointer]:
+            - generic [ref=e262]: Y a-t-il un accompagnement après la formation ?
+            - img [ref=e264]
+          - paragraph [ref=e266]: Oui, une supervision est assurée pendant et après la formation afin de vous accompagner dans votre évolution.
+        - generic [ref=e267]:
+          - button "Les cours sont-ils en ligne ou en présentiel ?" [ref=e268] [cursor=pointer]:
+            - generic [ref=e269]: Les cours sont-ils en ligne ou en présentiel ?
+            - img [ref=e271]
+          - paragraph [ref=e273]: La partie théorique est accessible en ligne. Certaines pratiques peuvent être proposées en présentiel selon les sessions.
+        - generic [ref=e274]:
+          - button "Puis-je revoir les modules après la formation ?" [ref=e275] [cursor=pointer]:
+            - generic [ref=e276]: Puis-je revoir les modules après la formation ?
+            - img [ref=e278]
+          - paragraph [ref=e280]: Vous bénéficiez d'un accès permanent aux contenus ainsi que de la possibilité de revenir sur certaines sessions.
+    - generic [ref=e283]:
+      - generic [ref=e284]: Rejoignez-nous
+      - heading "Prêt à transformer votre avenir ?" [level=2] [ref=e285]
+      - paragraph [ref=e286]: Rejoignez So' Academy et développez des compétences qui auront un impact réel sur votre vie et celle des autres.
+      - generic [ref=e287]:
+        - link "Accéder aux formations" [ref=e288] [cursor=pointer]:
+          - /url: "#programmes"
+          - button "Accéder aux formations" [ref=e289]:
+            - text: Accéder aux formations
+            - img [ref=e290]
+        - link "Retour à l'accueil" [ref=e292] [cursor=pointer]:
+          - /url: /
+  - contentinfo [ref=e293]:
+    - generic [ref=e294]:
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - img "So’ Academy" [ref=e298]
+          - paragraph [ref=e299]: "La mission de Sophian Jouhari : vous guider dans votre développement personnel et mental, vers une vie plus épanouie."
+        - generic [ref=e300]:
+          - generic [ref=e301]: Nos activités
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "So’ Academy" [ref=e304] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e305]:
+              - link "So’ Performance" [ref=e306] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e307]:
+              - link "So’Therapies" [ref=e308] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e309]:
+          - generic [ref=e310]: Ressources
+          - list [ref=e311]:
+            - listitem [ref=e312]:
+              - link "Blog" [ref=e313] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e314]:
+              - link "FAQ" [ref=e315] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e316]:
+              - link "Contact" [ref=e317] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e318]:
+              - link "Mentions légales" [ref=e319] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e320]:
+        - paragraph [ref=e321]: © 2026 So’ Academy — Sophian Jouhari. Tous droits réservés.
+        - generic [ref=e322]:
+          - link "Instagram" [ref=e323] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e324]
+          - link "LinkedIn" [ref=e326] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e327]

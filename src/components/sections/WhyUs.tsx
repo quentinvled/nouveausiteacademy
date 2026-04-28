@@ -47,15 +47,16 @@ export function WhyUs() {
               Pourquoi nous choisir
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-              Pourquoi choisir{" "}
-              <span className="text-[#1E6BF1]">So’ Academy&nbsp;?</span>
+              Ce qui rend{" "}
+              <span className="text-[#1E6BF1]">So&apos; Academy unique</span>
             </h2>
             <p className="text-lg text-gray-500 mb-8 leading-relaxed">
-              Une école fondée sur l’excellence, l’humain et la pratique.
-              Chaque détail est pensé pour vous offrir la meilleure expérience
-              d’apprentissage.
-              {/* Advantages list */}
-              <div className="space-y-4">
+              Nous n’avons pas construit une école de plus. Nous avons conçu un
+              écosystème où chaque détail : le contenu, le suivi, la communauté.
+              Tout est pensé pour faire de vous un praticien d'exception.
+            </p>
+            {/* Advantages list */}
+            <div className="space-y-4">
                 {advantages.map((adv) => (
                   <div
                     key={adv.title}
@@ -75,7 +76,6 @@ export function WhyUs() {
                   </div>
                 ))}
               </div>
-            </p>
             
           </div>
 

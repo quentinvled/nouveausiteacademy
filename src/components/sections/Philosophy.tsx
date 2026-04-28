@@ -32,13 +32,13 @@ export function Philosophy() {
               Notre ADN
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-              Notre philosophie{" "}
-              <span className="text-[#1E6BF1]">pédagogique</span>
+              Ce en quoi nous{" "}
+              <span className="text-[#1E6BF1]">croyons profondément</span>
             </h2>
             <p className="text-lg text-gray-500 leading-relaxed mb-8">
-              Formation orientée humain, excellence, pratique et savoir-être.
-              Une approche qui va bien au-delà de la simple transmission de
-              connaissances — nous façonnons des praticiens d’exception.
+              Derrière chaque formation, chaque accompagnement et chaque certification,
+              il y a une vision : celle d’un apprentissage qui transforme vraiment,
+              de l’intérieur.
             </p>
             <button className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#1E6BF1] text-white font-semibold text-sm hover:bg-[#155fd8] transition-colors shadow-md hover:shadow-lg cursor-pointer">
               Notre approche en détail

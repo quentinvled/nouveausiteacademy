@@ -47,11 +47,11 @@ export function Target() {
             À qui s’adresse So’ Academy
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-            À qui s’adressent nos formations&nbsp;?
+            Pour qui est fait cet écosystème&nbsp;?
           </h2>
           <p className="text-lg text-gray-500 max-w-xl mx-auto">
-            Nos programmes sont conçus pour toute personne désireuse de
-            progresser, se reconvertir ou accompagner les autres.
+            Que vous souhaitiez vous former, vous surpasser ou vous reconstruire,
+            il y a une place pour vous ici.
           </p>
         </div>
 
